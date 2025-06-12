@@ -7,11 +7,11 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin: 24px 48px 0 48px;
+  margin: 24px 192px 0 192px;
 }
-
-#logo {
-  color: #ffff;
+.hero-section {
+  color: #fff;
+  background-color: #1f2937;
 }
 
 nav {
@@ -28,6 +28,26 @@ a {
   color: #fff;
 }
 
-.hero-section {
-  background-color: #1f2937;
+.hero-content {
+  display: flex;
+  margin: 48px 192px 0 192px;
+  justify-content: space-between;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-description {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+#sign-up-btn {
+  color: #ffff;
+  background-color: #3882f6;
+  padding: 10px 24px 10px 24px;
+  border-radius: 4px;
 }
