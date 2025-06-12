@@ -10,6 +10,10 @@ header {
   margin: 24px 48px 0 48px;
 }
 
+#logo {
+  color: #ffff;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -22,4 +26,8 @@ li {
 
 a {
   color: #fff;
+}
+
+.hero-section {
+  background-color: #1f2937;
 }
