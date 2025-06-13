@@ -111,3 +111,22 @@ a {
   text-align: center;
   margin-top: 8px;
 }
+
+/* Quote Section */
+.quote-section {
+  background-color: #e5e7eb;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.quote {
+  margin: 48px 240px 0 240px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  margin: 48px 240px 0 240px;
+  text-align: end;
+}
