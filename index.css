@@ -1,6 +1,5 @@
 * {
   font-family: "Roboto", sans-serif;
-  border: solid 1px red;
   margin: 0;
   padding: 0;
 }
@@ -12,6 +11,10 @@ header {
 .hero-section {
   color: #fff;
   background-color: #1f2937;
+  padding-top: 30px;
+}
+
+.logo-container {
 }
 
 nav {
@@ -33,6 +36,8 @@ a {
   display: flex;
   margin: 48px 240px 0 240px;
   justify-content: space-between;
+  align-items: center;
+  height: 100vh;
 }
 
 .hero-title {
@@ -68,7 +73,7 @@ a {
   width: 600px;
 }
 
-.right-section {
+.right-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,7 +84,11 @@ a {
 
 /* About Section */
 .about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 48px 240px 0 240px;
+  height: 80vh;
 }
 
 .about-title {
@@ -115,9 +124,13 @@ a {
 
 /* Quote Section */
 .quote-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #e5e7eb;
   padding-top: 30px;
   padding-bottom: 30px;
+  height: 70vh;
 }
 
 .quote {
@@ -134,13 +147,20 @@ a {
 
 /* Call to Action Section */
 
+.cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
 .cta-container {
   background-color: #3882f6;
   margin: 48px 240px 0 240px;
   border-radius: 6px;
   color: #ffff;
   display: flex;
-  justify-content: space-between;
+  gap: 100px;
   padding: 50px 100px 50px 100px;
 }
 
