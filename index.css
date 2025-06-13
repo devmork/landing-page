@@ -131,3 +131,34 @@ a {
   margin: 48px 240px 0 240px;
   text-align: end;
 }
+
+/* Call to Action Section */
+
+.cta-container {
+  background-color: #3882f6;
+  margin: 48px 240px 0 240px;
+  border-radius: 6px;
+  color: #ffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px 50px 100px;
+}
+
+.cta-right-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-heading {
+  margin-bottom: 8px;
+}
+
+.cta-signUp-btn {
+  padding: 8px 40px 8px 40px;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #3882f6;
+  font-size: 14px;
+}
