@@ -76,3 +76,38 @@ a {
   background-color: grey;
   height: 300px;
 }
+
+/* About Section */
+.about-section {
+  margin: 48px 240px 0 240px;
+}
+
+.about-title {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+  margin: 0 24px 0 24px;
+}
+.img-container {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 6px;
+}
+
+.img-description {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 8px;
+}
